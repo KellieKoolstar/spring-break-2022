@@ -1,0 +1,122 @@
+body {
+    margin: 0px;
+    font-family: 'Anybody', cursive;
+    background-color: honeydew;
+}
+
+/* nav bar */
+.container {
+    display: grid;
+    grid-template-columns: 1fr;
+    background-color: rgb(69, 123, 157);
+    font-size: 20px;
+    position: sticky;
+    top: 0px;
+}
+
+.nav-wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+}
+
+.right-side {
+    display: flex;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.nav-wrapper > .right-side > div {
+    margin-left: 50px;
+}
+
+.nav-link-wrapper a:hover {
+    height: 20px;
+    border-bottom: 2px solid transparent;
+    transition: border-bottom 20s;
+    text-align: center;
+    color: rgb(29, 53, 87);
+}
+
+.nav-link-wrapper a {
+    color: honeydew;
+    text-decoration: none;
+}
+
+.nav-title  a {
+    color:rgb(0, 18, 25);
+    text-decoration: none;
+}
+
+.current-page-link-wrapper a {
+    text-decoration: none;
+    color:rgb(0, 18, 25);
+    border-bottom: 1px solid;
+}
+
+/* countdown */
+.countdown {
+    text-align: center;
+    font-size: 30px;
+    background-color: rgb(29, 53, 87);
+    color: rgb(241, 250, 238);
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+/* wedding details */
+.wedding-details-container {
+    text-align: center;
+}
+
+ul {
+    display: inline-block;
+    text-align: left;
+    padding-top: 0px;
+}
+
+.dress-code-title {
+    padding-top: 40px;
+}
+
+.more-info a {
+    text-decoration: underline;
+    color: black;
+    padding-bottom: 50px;
+}
+
+.more-info a:hover {
+    color: rgb(29, 53, 87);
+}
+
+.wedding-pic {
+    height: 300px;
+}
+
+/* calendar */
+.grid-container {
+    display: grid;
+    grid-template-columns: 200px 200px 200px 200px;
+    grid-template-rows: 200px 200px;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 50px;
+    row-gap: 50px;
+}
+
+.grid-item {
+    text-align: center;
+}
+
+.weather-icon {
+    height: 40px;
+}
+
+.emoji {
+    height: 30px;
+}
+
+.calendar-title {
+    text-align: center;
+    padding-top: 50px;
+}
